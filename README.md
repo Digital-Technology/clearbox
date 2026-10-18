@@ -28,6 +28,10 @@ Claude and your files and stops that, without getting in the way of normal work.
 - **Local audit log only.** The receipt is built from a log kept on your computer, in the plugin's
   data folder. It stores file paths and commands (with secret values removed), never file contents
   or tool output. Logs older than 30 days are deleted automatically.
+- **Reads secrets only to hide them.** To recognise a secret in tool output, Clearbox reads your
+  protected `.env` files on your machine and keeps their values in memory for that one hook call.
+  The values are never written to disk, never logged and never sent anywhere (there is no network
+  code at all).
 - **Readable.** The whole plugin is one small JavaScript file with no dependencies. Read it.
 
 ## What is protected by default

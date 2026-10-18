@@ -1,6 +1,6 @@
 ---
 description: Show which files in this project Clearbox keeps hidden from Claude, and what stays visible
-allowed-tools: Bash(node:*)
+allowed-tools: Bash(node "${CLAUDE_PLUGIN_ROOT}/scripts/clearbox.js" check:*)
 ---
 
 !`node "${CLAUDE_PLUGIN_ROOT}/scripts/clearbox.js" check "${CLAUDE_PROJECT_DIR}" "${CLAUDE_PLUGIN_DATA}"`

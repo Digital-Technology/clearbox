@@ -1,6 +1,6 @@
 ---
 description: Privacy receipt for this session, listing what Claude read, changed and ran, and what Clearbox blocked or hid
-allowed-tools: Bash(node:*)
+allowed-tools: Bash(node "${CLAUDE_PLUGIN_ROOT}/scripts/clearbox.js" receipt:*)
 ---
 
 !`node "${CLAUDE_PLUGIN_ROOT}/scripts/clearbox.js" receipt "${CLAUDE_SESSION_ID}" "${CLAUDE_PLUGIN_DATA}"`
