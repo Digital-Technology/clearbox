@@ -5,6 +5,8 @@
   "author": {
     "name": "Hermes"
   },
+  "homepage": "https://github.com/Digital-Technology/clearbox",
+  "repository": "https://github.com/Digital-Technology/clearbox",
   "license": "MIT",
   "keywords": ["privacy", "security", "secrets", "dotenv", "audit", "guardrails", "windows"]
 }
