@@ -1,0 +1,14 @@
+{
+  "name": "clearbox",
+  "owner": {
+    "name": "Hermes"
+  },
+  "description": "Clearbox: a privacy guard for Claude Code. Keeps your secrets away from Claude and gives you a local privacy receipt.",
+  "plugins": [
+    {
+      "name": "clearbox",
+      "source": "./",
+      "description": "Keeps .env files, keys and credentials away from Claude, shares variable names without values, hides leaked secrets from tool output, and keeps a local privacy receipt. Zero telemetry."
+    }
+  ]
+}

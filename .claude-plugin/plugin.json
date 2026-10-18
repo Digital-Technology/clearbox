@@ -1,0 +1,10 @@
+{
+  "name": "clearbox",
+  "version": "0.1.0",
+  "description": "Privacy guard for Claude Code: keeps your secrets (.env, keys, credentials) away from Claude, shares variable names without values, hides leaked secrets from tool output, and keeps a local privacy receipt. Zero telemetry, no network.",
+  "author": {
+    "name": "Hermes"
+  },
+  "license": "MIT",
+  "keywords": ["privacy", "security", "secrets", "dotenv", "audit", "guardrails", "windows"]
+}

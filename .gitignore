@@ -1,0 +1,15 @@
+# Internal notes — never published
+_interno/
+
+# Claude Code local settings
+.claude/
+
+# Node (Clearbox has no dependencies; these only appear if someone adds tooling)
+node_modules/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
