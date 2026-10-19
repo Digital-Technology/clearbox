@@ -7,6 +7,10 @@
   },
   "homepage": "https://github.com/Digital-Technology/clearbox",
   "repository": "https://github.com/Digital-Technology/clearbox",
+  "documentationUrl": "https://github.com/Digital-Technology/clearbox#readme",
+  "supportUrl": "https://github.com/Digital-Technology/clearbox/issues",
+  "privacyPolicyUrl": "https://github.com/Digital-Technology/clearbox/blob/main/PRIVACY.md",
+  "termsOfServiceUrl": "https://github.com/Digital-Technology/clearbox/blob/main/LICENSE",
   "license": "MIT",
   "keywords": ["privacy", "security", "secrets", "dotenv", "audit", "guardrails", "windows"]
 }

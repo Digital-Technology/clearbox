@@ -34,6 +34,8 @@ Claude and your files and stops that, without getting in the way of normal work.
   code at all).
 - **Readable.** The whole plugin is one small JavaScript file with no dependencies. Read it.
 
+Full details: [PRIVACY.md](./PRIVACY.md).
+
 ## What is protected by default
 
 `.env`, `.env.*`, `*.env`, private keys (`*.pem`, `*.key`, `*.p12`, `*.pfx`, `*.jks`, `*.keystore`,
@@ -84,6 +86,8 @@ Clearbox is a guard, not a sandbox. It is honest about what it cannot do:
 - When a hidden value appears in a file Claude is editing, Claude sees the marker instead of the
   value, so it may need you to make that specific edit yourself.
 - It runs where Claude Code plugin hooks run: **Claude Code** and **Cowork**. Not in claude.ai chat.
+  The protection works in both; the `/clearbox:receipt` and `/clearbox:check` commands currently
+  work in Claude Code only.
 - If Node.js is not installed, the hooks cannot run and nothing is protected.
 
 ## Platform support
